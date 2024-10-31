@@ -1,0 +1,50 @@
+/* Tarjetas de personajes (CharCard) */
+.char-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    max-width: 550px; /* Ajusta el ancho de la tarjeta */
+    cursor: pointer;
+
+}
+
+/* Imagen de la tarjeta */
+.char-card img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Contenido de la tarjeta */
+.char-card-content {
+    padding: 15px;
+    flex: 1; /* Permite que el contenido ocupe el espacio restante */
+    text-align: left;
+}
+
+.char-card-content h2 {
+    font-size: 1.2em; 
+    color: #fc5400;
+    margin: 0;
+    font-weight: bold;
+}
+
+.char-card-content p {
+    font-size: 0.9em; 
+    color: #333333;
+    margin-top: 5px;
+    line-height: 1.4;
+}
+
+/* Estilos para el título de la página */
+.page-title {
+    text-align: center;
+    font-size: 2em; /* Tamaño de la fuente */
+    font-weight: bold;
+    color: #2d3748; /* Ajusta el color del texto */
+    width: 100%;
+}

@@ -1,0 +1,89 @@
+.character-page-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f7fa;
+  min-height: 100vh;
+}
+
+.character-page-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://i.pinimg.com/564x/b3/74/35/b3743574e1fc3c08bc1e90ecc76a2e44.jpg');
+  opacity: 0.2; /* Controla la opacidad solo para la imagen de fondo */
+
+}
+
+/* Card del personaje */
+.character-card {
+  max-width: 800px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  padding: 16px;
+}
+
+.character-image {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.character-image:hover {
+  transform: scale(1.1); /* Efecto de zoom */
+}
+
+/* Nombre del personaje */
+.character-name {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fc5400;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 16px;
+ align-items: center;
+}
+
+/* Información de cada sección */
+.character-info {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.section-heading {
+  color: #2d3748;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.info-section {
+  padding: 10px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 16px;
+}
+
+.info-box {
+  padding: 8px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  font-size: 1em;
+  color: #4a5568;
+}
+
+.info-box strong {
+  color: #fc5400;
+}

@@ -1,0 +1,53 @@
+/* Estilos generales del contenedor de favoritos */
+.favorites-container {
+    background-image: url('https://i.pinimg.com/564x/5e/f1/69/5ef1694fb37fb8a6adc7639c618f90cc.jpg'); 
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título principal */
+  .favorites-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Cada tarjeta de personaje */
+  .favorite-item {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border-left: 4px solid #ff5400; /* Borde izquierdo en color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Nombre del personaje */
+  .favorite-item .character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff5400;
+    margin-bottom: 5px;
+  }
+  
+  /* Información adicional del personaje */
+  .favorite-item .character-info {
+    font-size: 0.9rem;
+    color: black;
+    margin-bottom: 8px;
+  }
+  
+  /* Fecha de adición */
+  .favorite-item .added-date {
+    font-size: 0.8rem;
+    color: #888;
+    text-align: right;
+    font-style: italic;
+  }
+  

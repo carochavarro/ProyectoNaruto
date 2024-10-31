@@ -1,0 +1,38 @@
+/* Estilos para la tarjeta del personaje */
+.char-card {
+    max-width: 00px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    padding: 16px;
+    display: flex;
+    cursor: pointer;
+    margin: 10px auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .char-card:hover {
+    transform: scale(1.02); /* Efecto de hover */
+  }
+  
+  /* Imagen del personaje */
+  .character-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  /* Contenido de la tarjeta */
+  .char-card-content {
+    flex: 1;
+  }
+  
+.css-1amzjiv{
+    background-color: #f9ebd9;
+    opacity: 0.8; /* Ajusta la opacidad del fondo */
+  }
+ 
+  
